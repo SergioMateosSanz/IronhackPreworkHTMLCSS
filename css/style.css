@@ -1,0 +1,167 @@
+html {
+    background-color: black;
+    color: black;
+}
+
+body {
+    width: 70vw;
+    margin: 0 auto;
+    background-image: url(/images/backgroundbody.png);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#principalheader {
+    margin: 0px 10px 10px 33px;
+    background-color: white;
+    border-radius: 10px;
+    width: 92%;
+    background-image: url(/images/flowers.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principalheader h1{
+    font-size: 2.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#principalheader #tittle{
+    color: pink;
+    font-size: 0.9em;
+}
+
+#principalheader #subtittle {
+    font: 0.4em sans-serif;
+    margin: 0px 0px 0px 55px;
+    color: grey;
+}
+
+#leftside{
+    display: inline-block;
+    margin: 0px 0px 10px 10px;
+    padding: 20px;
+    width: 20vw;
+    vertical-align: top;
+    font-size: 0.8em;
+}
+
+#leftside #design{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+#leftside .navigation{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px 10px 3px 10px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px dashed gray;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    font-family: Times, serif;
+}
+
+li::before {
+    display: inline-block;
+    content: '>';
+    margin-right: 0.2em;
+}
+
+#leftside header{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 1vh;
+}
+
+#leftside #design .firstline{
+    color: salmon;
+    font-family: Times, serif;
+    font-style: bold;
+    font-size: 1.1em;
+}
+
+.navigation li{
+    color: salmon;
+}
+
+.navigation .linkweb{
+    color: salmon;
+    text-decoration: underline dotted;
+}
+
+#principalinfo{
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+    padding: 20px 20px 0px 10px;
+    width: 42vw;
+    vertical-align: top;
+    font-size: 1.15em;
+}
+
+#one, 
+#two, 
+#three, 
+#four, 
+#five{
+    background-color: white;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    padding: 10px 10px 2px 10px;
+    font-size: 0.8em;
+}
+
+#principalinfo p{
+    margin-bottom: 1.5vh;
+}
+
+#principalinfo header{
+    font-size: 1.3em;
+    padding-bottom: 1vh;
+}
+
+#one h6{
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+#principalinfo #one, 
+#principalinfo #three,
+#principalinfo#five{
+    padding-left: 4.5vw;
+}
+
+#principalinfo #two, 
+#principalinfo #four{
+    padding-right: 4.5vw;
+}
+
+#principalinfo a{
+    color:salmon;
+}
+
+#principalinfo .nolink{
+    color: black;
+    text-decoration: underline dotted;
+}
+
+#leftside header,
+#principalinfo header {
+    background-image: url(/images/headers.png);
+    background-size: cover;
+}
